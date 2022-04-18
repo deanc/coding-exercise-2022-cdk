@@ -1,0 +1,41 @@
+{
+    "name": "coding-exercise-2022-cdk",
+    "version": "1.0.0",
+    "license": "MIT",
+    "bin": {
+        "coding-exercise-2022-cdk": "bin/coding-exercise-2022-cdk.js"
+    },
+    "scripts": {
+        "exercise": "ts-node index.ts",
+        "test": "jest --coverage",
+        "cdk": "cdk",
+        "cdk:synth": "cdk synth",
+        "cdk:bootstrap": "cdk bootstrap",
+        "cdk:deploy": "cdk deploy",
+        "cdk:destroy": "cdk destroy"
+    },
+    "devDependencies": {
+        "@aws-cdk/aws-lambda": "^1.152.0",
+        "@aws-cdk/aws-lambda-nodejs": "^1.152.0",
+        "@aws-cdk/core": "^1.152.0",
+        "@types/aws-lambda": "^8.10.93",
+        "aws-cdk": "2.20.0",
+        "ts-node": "^9.0.0",
+        "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+        "@types/jest": "^27.4.1",
+        "@types/node": "^12.7.2",
+        "@typescript-eslint/eslint-plugin": "^5.18.0",
+        "@typescript-eslint/parser": "^5.18.0",
+        "eslint": "^8.12.0",
+        "eslint-plugin-unused-imports": "^2.0.0",
+        "jest": "^27.5.1",
+        "prettier": "^2.5.1",
+        "ts-jest": "^27.1.4",
+        "typescript": "^3.9.10"
+    },
+    "dependencies": {
+        "aws-cdk-lib": "2.20.0",
+        "constructs": "^10.0.0",
+        "source-map-support": "^0.5.16"
+    }
+}

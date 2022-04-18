@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`station_finder finds the best station for point finds the best station 1`] = `
+Station {
+  "coordinates": Array [
+    10,
+    0,
+  ],
+  "power": 4,
+  "reach": 12,
+}
+`;
+
+exports[`station_finder finds the best station for point finds the best station 2`] = `undefined`;
+
+exports[`station_finder finds the best station for point finds the best station 3`] = `
+Station {
+  "coordinates": Array [
+    10,
+    0,
+  ],
+  "power": 0.6718427000252355,
+  "reach": 12,
+}
+`;
+
+exports[`station_finder finds the best station for point finds the best station 4`] = `
+Station {
+  "coordinates": Array [
+    20,
+    20,
+  ],
+  "power": 4.715728752538098,
+  "reach": 5,
+}
+`;
