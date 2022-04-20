@@ -17,7 +17,7 @@ Check out [Task.md](TASK.md)
 
 1. Set up `aws-vault`
 2. Synth and then bootstrap your environment: `aws-vault exec <profile> --no-session -- cdk synth; aws-vault exec <profile> --no-session -- cdk deploy` (you can remove no-session most likely - this was an issue on OSX)
-3. Deploy: `aws-vault exec deanc --no-session -- cdk deploy`
+3. Deploy: `aws-vault exec <profile> --no-session -- cdk deploy`
 4. Test:
 
 ```
